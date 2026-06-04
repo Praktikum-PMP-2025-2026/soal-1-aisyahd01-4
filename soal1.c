@@ -87,7 +87,7 @@ void printList (){
 
 int main (){
     int Q;
-    scanf ("%d", Q);
+    scanf ("%d", &Q);
 
     for (int i=0; i<Q; i++){
         int op, x;
