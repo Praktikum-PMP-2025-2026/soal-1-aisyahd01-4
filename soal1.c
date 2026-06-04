@@ -41,10 +41,7 @@ void Delete (int x){
         prev=temp;
         temp=temp->next;
     }
-    
-    if (temp==NULL) {
-        return;
-    }
+
     if (prev==NULL){ 
         head= head->next;
     }
